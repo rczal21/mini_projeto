@@ -1,0 +1,52 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a7d8f5; /* azul bebê */
+}
+
+.titulo {
+  position: absolute;
+  top: 10vh; /* distância do topo da tela */
+  margin: 0;
+  color: #1e3a5f;
+}
+
+.card {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 300px;
+}
+
+.card input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.card button {
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #4338ca;
+}
+
+.mensagem {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+}
